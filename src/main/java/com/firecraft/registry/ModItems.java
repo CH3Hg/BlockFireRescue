@@ -1,7 +1,6 @@
 package com.firecraft.registry;
 
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ToolMaterial;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -15,7 +14,15 @@ public class ModItems {
             "fire_axe",
             props -> new Item(
                     props.axe(
-                            ToolMaterial.DIAMOND,60,-3f
+                            ModMaterial.FIRE_AXE_MATERIAL,1,-3f
+                    )
+            )
+    );
+    public static final DeferredItem<Item> FIRE_SHOVEL = ITEMS.registerItem(
+            "fire_shovel",
+            props -> new Item(
+                    props.shovel(
+                            ToolMaterial.DIAMOND,1,-1f
                     )
             )
     );

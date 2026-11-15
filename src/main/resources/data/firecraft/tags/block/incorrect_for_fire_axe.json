@@ -1,0 +1,8 @@
+{
+  "values": [
+    "#minecraft:mineable/axe"
+  ],
+  "remove": [
+    "#firecraft:needs_fire_axe"
+  ]
+}
