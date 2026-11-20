@@ -1,7 +1,13 @@
 
 name: Build
 
-on: [push, pull_request]
+on:
+  push:
+    paths-ignore:
+      - 'README.md'
+  pull_request:
+    paths-ignore: 
+      - 'README.md'
 
 permissions:
   contents: read
@@ -31,8 +37,7 @@ jobs:
       - name: Build with Gradle
         run: ./gradlew build
 
-      # Upload the built mod JAR
-      - name: Upload FireCraft JAR
+      - name: Upload Artifacts
         uses: actions/upload-artifact@v4
         with:
           name: FireCraft-${{ github.sha }}
