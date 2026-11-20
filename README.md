@@ -1,8 +1,22 @@
-# FireCraft（方块消防）
->[!WARNING]
->本项目开发者为Java初学者，部分代码由AI编写，可能存在BUG
+# FireCraft（方块消防）  
 
-这是一个以消防救援为主题的Minecraft模组，正在持续开发中。  
-* 加载器：`Neoforge`
-* Minecraft版本：`JavaEdition-1.21.11`
+>[!WARNING]
+>本项目由Java初学者借助AI编写，可能存在错误  
+
+这是一个有关消防救援的Minecraft模组，正在持续开发中...  
+## 基础信息  
+* 支持版本：`Minecraft_JavaEdition-1.21.11`  
+* 模组加载器：`Neoforge`
 * 构建系统：`Gradle`
+## 预计支持的功能（todolist）
+- [ ] 全套消防服
+- [ ] 空气呼吸器SCBA
+- [ ] 火焰蔓延系统重写
+- [ ] 烟气系统
+- [ ] 水带泵浦系统
+- [ ] 原版方块变种（潮湿、破碎、灰烬）
+- [ ] 室内消防系统
+- [ ] 和Create（机械动力）的流体管路系统联动
+- [ ] 和急救类模组联动
+- [ ] 更多的正面和负面buff
+- [ ] 其他的一些内容
