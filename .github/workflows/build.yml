@@ -5,9 +5,11 @@ on:
   push:
     paths-ignore:
       - 'README.md'
+      - 'pictures/**'
   pull_request:
     paths-ignore: 
       - 'README.md'
+      - 'pictures/**'
 
 permissions:
   contents: read
