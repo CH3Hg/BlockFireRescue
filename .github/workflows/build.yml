@@ -42,7 +42,7 @@ jobs:
       - name: Upload Artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: FireCraft-${{ github.sha }}
+          name: BlockFireRescue-CI-${{ github.sha }}
           path: build/libs/*.jar
           if-no-files-found: error
           retention-days: 14

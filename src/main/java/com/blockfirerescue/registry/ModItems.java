@@ -1,11 +1,11 @@
-package com.firecraft.registry;
+package com.blockfirerescue.registry;
 
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ToolMaterial;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
-import static com.firecraft.FireCraft.MODID;
+import static com.blockfirerescue.BlockFireRescue.MODID;
 
 public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(MODID);

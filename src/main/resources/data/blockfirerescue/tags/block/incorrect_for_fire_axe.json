@@ -3,6 +3,6 @@
     "#minecraft:mineable/axe"
   ],
   "remove": [
-    "#firecraft:needs_fire_axe"
+    "#blockfirerescue:needs_fire_axe"
   ]
 }

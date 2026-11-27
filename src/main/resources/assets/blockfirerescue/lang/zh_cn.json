@@ -1,0 +1,10 @@
+{
+  "blockfirerescue.configuration.title": "blockfirerescue Configs",
+  "blockfirerescue.configuration.section.blockfirerescue.common.toml": "blockfirerescue Configs",
+  "blockfirerescue.configuration.section.blockfirerescue.common.toml.title": "blockfirerescue Configs",
+  "blockfirerescue.configuration.items": "Item List",
+  "blockfirerescue.configuration.magicNumberIntroduction": "Magic Number Text",
+  "blockfirerescue.configuration.magicNumber": "Magic Number",
+  "item.blockfirerescue.fire_axe": "消防斧",
+  "item.blockfirerescue.fire_shovel": "消防铲"
+}
