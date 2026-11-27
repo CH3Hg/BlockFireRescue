@@ -1,4 +1,4 @@
-# FireCraft（方块消防）  
+# BlockFireRescue（方块消防）  
 
 >[!WARNING]
 >本项目由Java初学者借助AI编写，可能存在错误  
