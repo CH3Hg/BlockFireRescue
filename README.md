@@ -11,9 +11,10 @@
 预计会与[`Create（机械动力）`](https://github.com/Creators-of-Create/Create)等支持流体管路的工业模组还有急救类模组展开联动。    
 
 ## 技术信息  
-* 支持版本：`Minecraft_JavaEdition-1.21.11`  
-* 模组加载器：`Neoforge`
-* 构建系统：`Gradle`
+* 支持版本：`Minecraft_JavaEdition-1.21.11`
+* ModID：`blockfirerescue`
+* 模组加载器：`Neoforge`  
+* 构建系统：`Gradle`  
 
 ## 预计支持的功能（todolist）
 - [ ] 全套消防服
